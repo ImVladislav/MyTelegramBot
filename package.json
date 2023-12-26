@@ -1,0 +1,31 @@
+{
+  "name": "mytelegrambot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImVladislav/MyTelegramBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ImVladislav/MyTelegramBot/issues"
+  },
+  "homepage": "https://github.com/ImVladislav/MyTelegramBot#readme",
+  "dependencies": {
+    "@types/node": "^20.10.5",
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.64.0",
+    "openai": "^4.24.1",
+    "telegraf": "^4.15.3",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.64.1"
+  }
+}
